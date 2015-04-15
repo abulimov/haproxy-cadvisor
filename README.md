@@ -7,6 +7,9 @@ CPU utilization data from [cAdvisor](https://github.com/google/cadvisor).
 This utility will adjust servers balancing weight to
 make the load on all servers in given backend equal.
 
+You can read more about it in
+[my blog (in Russian)](http://bulimov.ru/it/haproxy-cadvisor/).
+
 ## Install
 
 First, you need to install Python *requests* lib:
