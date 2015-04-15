@@ -9,6 +9,14 @@ make the load on all servers in given backend equal.
 
 ## Install
 
+First, you need to install Python *requests* lib:
+```shell
+pip install requests
+# or apt-get install python-requests on Debian/Ubuntu
+```
+
+Then clone this repo and set up initial config
+
 ```shell
 git clone https://github.com/abulimov/haproxy-cadvisor
 cd haproxy-cadvisor
